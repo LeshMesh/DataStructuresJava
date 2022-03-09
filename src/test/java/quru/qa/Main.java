@@ -18,10 +18,12 @@ public class Main {
 
         Car lada = new Car();
         lada.model = "Lada Vesta";
+
         lada.dateRelease = 2013;
         lada.autoTransmission = false;
         lada.body = "sw cross";
         lada.boostSpeed = 12.2;
+
 
         bmw.ageCar();
         bmw.mileageCar();
