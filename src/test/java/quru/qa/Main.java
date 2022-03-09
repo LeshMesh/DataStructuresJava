@@ -16,6 +16,13 @@ public class Main {
         audi.body = "wagon";
         audi.boostSpeed = 7.5;
 
+        Car lada = new Car();
+        lada.model = "Lada Vesta";
+        lada.dateRelease = 2016;
+        lada.autoTransmission = false;
+        lada.body = "sw cross";
+        lada.boostSpeed = 12.0;
+
         bmw.ageCar();
         bmw.mileageCar();
         bmw.transmissionCar();
@@ -25,5 +32,10 @@ public class Main {
         audi.mileageCar();
         audi.transmissionCar();
         audi.infoCar();
+
+        lada.ageCar();
+        lada.mileageCar();
+        lada.transmissionCar();
+        lada.infoCar();
     }
 }
