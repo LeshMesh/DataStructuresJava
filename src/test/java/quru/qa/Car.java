@@ -3,7 +3,7 @@ package quru.qa;
 public class Car {
     String model, transmission, body;
     int dateRelease, age, mileage;
-    int mediumMileageYear = 17000;
+    int mediumMileageYear = 17001;
     boolean autoTransmission;
     double boostSpeed;
 
