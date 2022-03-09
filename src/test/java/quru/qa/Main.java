@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Car bmw = new Car();
         bmw.model = "BMW 3 series";
-        bmw.dateRelease = 2020;
+        bmw.dateRelease = 2021;
         bmw.autoTransmission = false;
         bmw.body = "sedan";
-        bmw.boostSpeed = 7.1;
+        bmw.boostSpeed = 7.2;
 
         Car audi = new Car();
         audi.model = "Audi A4";
@@ -18,10 +18,12 @@ public class Main {
 
         Car lada = new Car();
         lada.model = "Lada Vesta";
-        lada.dateRelease = 2016;
+
+        lada.dateRelease = 2013;
         lada.autoTransmission = false;
         lada.body = "sw cross";
-        lada.boostSpeed = 12.0;
+        lada.boostSpeed = 12.2;
+
 
         bmw.ageCar();
         bmw.mileageCar();
